@@ -22,7 +22,7 @@
 :root {
   --nav-color: #ffffff;
   --nav-hover-color: #f39c12; /* Updated to orange */
-  --nav-mobile-background-color: #ffffff;
+  --nav-mobile-background-color: #1a5276; /* Updated to deep blue */
   --nav-dropdown-background-color: #1a5276; /* Updated to deep blue */
   --nav-dropdown-color: #ffffff;
   --nav-dropdown-hover-color: #f39c12; /* Updated to orange */
