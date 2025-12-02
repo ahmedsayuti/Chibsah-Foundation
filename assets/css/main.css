@@ -2292,3 +2292,225 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+/*--------------------------------------------------------------
+# Header Donate Button
+--------------------------------------------------------------*/
+/* Mobile Donate Button - Centered */
+.header-donate-mobile {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 997;
+}
+
+.header-donate-btn.mobile {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: linear-gradient(135deg, var(--accent-color), #218838);
+  color: var(--contrast-color);
+  border: none;
+  border-radius: 25px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  animation: pulse-glow-mobile 2s infinite;
+  white-space: nowrap;
+}
+
+/* Desktop Donate Button - Centered */
+.header-donate-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 998;
+}
+
+.header-donate-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, var(--accent-color), #218838);
+  color: var(--contrast-color);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  animation: pulse-glow 2s infinite;
+  white-space: nowrap;
+}
+
+.header-donate-btn:hover,
+.header-donate-btn.mobile:hover {
+  color: var(--contrast-color);
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(40, 167, 69, 0.5);
+}
+
+.header-donate-btn::before,
+.header-donate-btn.mobile::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.header-donate-btn:hover::before,
+.header-donate-btn.mobile:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.header-donate-btn .bi-heart-fill,
+.header-donate-btn.mobile .bi-heart-fill {
+  font-size: 18px;
+  animation: heartbeat 1.5s infinite;
+}
+
+.header-donate-btn.mobile .bi-heart-fill {
+  font-size: 16px;
+}
+
+/* Pulsing/Glowing Animation */
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(40, 167, 69, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+  }
+}
+
+@keyframes pulse-glow-mobile {
+  0% {
+    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(40, 167, 69, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+  }
+}
+
+/* Heartbeat Animation for Heart Icon */
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  5% {
+    transform: scale(1.2);
+  }
+  10% {
+    transform: scale(1);
+  }
+  15% {
+    transform: scale(1.2);
+  }
+  20% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1199px) {
+  /* Adjust mobile nav toggle position */
+  .mobile-nav-toggle {
+    position: relative;
+    z-index: 998;
+  }
+
+  /* Ensure header has enough space for centered button */
+  .header .container-fluid {
+    min-height: 70px;
+  }
+
+  /* Adjust logo size on mobile if needed */
+  .logo img {
+    max-height: 60px;
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-donate-btn.mobile {
+    padding: 6px 15px;
+    font-size: 13px;
+    min-width: 110px;
+  }
+
+  .header-donate-btn.mobile .bi-heart-fill {
+    font-size: 14px;
+  }
+
+  /* Adjust button position for very small screens */
+  @media (max-width: 576px) {
+    .header-donate-mobile {
+      transform: translateX(-50%) scale(0.9);
+    }
+
+    .logo img {
+      max-height: 50px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Hide mobile donate button on desktop */
+  .header-donate-mobile {
+    display: none !important;
+  }
+
+  /* Adjust desktop navigation to accommodate centered button */
+  .navmenu ul {
+    margin-left: auto;
+  }
+}
+
+/* Ensure header has enough height for the button */
+.header {
+  min-height: 90px;
+  position: relative;
+}
+
+@media (max-width: 1199px) {
+  .header {
+    min-height: 70px;
+  }
+}
+
+/* Fix z-index for dropdown to appear above button */
+.navmenu .dropdown ul {
+  z-index: 9999 !important;
+}
