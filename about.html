@@ -3,39 +3,38 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>About | Chibsah Foundation</title>
+    <title>About Us | Chibsah Foundation</title>
     <!-- Social Media Meta Tags -->
     <meta
       property="og:title"
-      content="Chibsah Foundation | Transforming Lives in Ghana through Healthcare, Clean Water, and Education"
+      content="About Chibsah Foundation | Our Mission, Vision, and Founder"
     />
     <meta
       property="og:description"
-      content="Chibsah Foundation is dedicated to improving lives in Ghana through healthcare initiatives, clean water projects, and educational programs."
+      content="Learn about Chibsah Foundation's mission, values, and our founder Yussif Alhassan Chibsah - a football legend turned humanitarian."
     />
     <meta property="og:image" content="assets/img/linkimage.png" />
-    <meta property="og:url" content="https://www.chibsahfoundation.org" />
+    <meta property="og:url" content="https://www.chibsahfoundation.org/about.html" />
     <meta property="og:type" content="website" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
-      content="Chibsah Foundation | Transforming Lives in Ghana through Healthcare, Clean Water, and Education"
+      content="About Chibsah Foundation | Our Mission, Vision, and Founder"
     />
     <meta
       name="twitter:description"
-      content="Chibsah Foundation is dedicated to improving lives in Ghana through healthcare initiatives, clean water projects, and educational programs."
+      content="Learn about Chibsah Foundation's mission, values, and our founder Yussif Alhassan Chibsah - a football legend turned humanitarian."
     />
     <meta name="twitter:image" content="assets/img/linkimage.png" />
-    <!-- End Social Media Meta Tags -->
 
     <meta
       name="description"
-      content="Learn more about Chibsah Foundation, our mission, vision, and the impactful work we do to improve lives in Ghana through healthcare, clean water, and education."
+      content="Learn about Chibsah Foundation's mission to transform lives in Ghana through healthcare, clean water, and education."
     />
     <meta
       name="keywords"
-      content="Chibsah Foundation, about us, mission, vision, healthcare, clean water, education, Ghana, nonprofit"
+      content="Chibsah Foundation, about, founder, Yussif Alhassan Chibsah, Ghana charity, nonprofit mission"
     />
 
     <!-- Favicon -->
@@ -110,14 +109,130 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
-
-    <!-- =======================================================
-  * Template Name: Active
-  * Template URL: https://bootstrapmade.com/active-bootstrap-website-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    
+    <!-- Additional CSS for About Page -->
+    <style>
+      .founder-section {
+        padding: 80px 0;
+        background-color: #f9f9f9;
+      }
+      
+      .founder-image {
+        border-radius: 8px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+      }
+      
+      .founder-quote {
+        font-style: italic;
+        color: #555;
+        border-left: 4px solid #7ed321;
+        padding-left: 20px;
+        margin: 30px 0;
+        font-size: 1.2rem;
+      }
+      
+      .milestone-timeline {
+        margin: 40px 0;
+      }
+      
+      .milestone-item {
+        display: flex;
+        margin-bottom: 25px;
+        align-items: flex-start;
+      }
+      
+      .milestone-year {
+        background-color: #7ed321;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-weight: bold;
+        min-width: 100px;
+        text-align: center;
+        margin-right: 20px;
+        flex-shrink: 0;
+      }
+      
+      .milestone-content {
+        flex-grow: 1;
+      }
+      
+      .mission-vision-cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 40px;
+      }
+      
+      .mission-card, .vision-card {
+        flex: 1;
+        min-width: 300px;
+        background: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      }
+      
+      .mission-card h3, .vision-card h3 {
+        color: #7ed321;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+      }
+      
+      /* Updated Page Banner - showing donation/help */
+      .page-banner {
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?q=80&w=2108&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 100px 0;
+        text-align: center;
+        margin-bottom: 60px;
+      }
+      
+      .page-banner h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+      }
+      
+      .page-banner p {
+        font-size: 1.2rem;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      
+      .club-consult-link {
+        color: #7ed321;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+      
+      .club-consult-link:hover {
+        color: #5db300;
+        text-decoration: underline;
+      }
+      
+      @media (max-width: 768px) {
+        .page-banner {
+          padding: 60px 0;
+        }
+        
+        .page-banner h1 {
+          font-size: 2rem;
+        }
+        
+        .milestone-item {
+          flex-direction: column;
+        }
+        
+        .milestone-year {
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+      }
+    </style>
   </head>
 
   <body class="about-page">
@@ -152,7 +267,8 @@
 
           <nav id="navmenu" class="navmenu ms-auto">
             <ul>
-              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html" class="active">About</a></li>
               <li class="dropdown">
                 <a href=""
                   ><span>Projects Gallery</span>
@@ -167,7 +283,6 @@
                   <li><a href="imam.html">Chief Imam Peace Walk</a></li>
                 </ul>
               </li>
-              <li><a href="">Team</a></li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
           </nav>
@@ -176,7 +291,8 @@
         <!-- Mobile Navigation Toggle -->
         <nav id="navmenu" class="navmenu d-lg-none">
           <ul>
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
             <li class="dropdown">
               <a href=""
                 ><span>Projects Gallery</span>
@@ -191,7 +307,6 @@
                 <li><a href="imam.html">Chief Imam Peace Walk</a></li>
               </ul>
             </li>
-            <li><a href="">Team</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -200,88 +315,73 @@
     </header>
 
     <main class="main">
-      <!-- Page Title -->
-      <div class="page-title light-background">
+      <!-- Page Banner with donation/help background -->
+      <section class="page-banner">
         <div class="container">
-          <h1>About</h1>
-          <nav class="breadcrumbs">
-            <ol>
-              <li><a href="index.html">Home</a></li>
-              <li class="current">About</li>
-            </ol>
-          </nav>
+          <h1 data-aos="fade-up">About Chibsah Foundation</h1>
+          <p data-aos="fade-up" data-aos-delay="100">
+            Learn about our mission, our values, and the visionary behind our work to transform lives in Ghana through healthcare, clean water, and education.
+          </p>
+          <a href="#donation" class="btn-get-started mt-4" data-aos="fade-up" data-aos-delay="200">Support Our Cause</a>
         </div>
-      </div>
-      <!-- End Page Title -->
+      </section>
 
-      <!-- About 2 Section -->
-      <section id="about-2" class="about-2 section">
+      <!-- Our Story Section -->
+      <section id="our-story" class="section">
         <div class="container">
-          <div class="content">
-            <div class="row justify-content-center">
-              <div
-                class="col-sm-12 col-md-5 col-lg-4 col-xl-4 order-lg-2 offset-xl-1 mb-4"
-              >
-                <div
-                  class="img-wrap text-center text-md-left"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                >
-                  <div class="img">
-                    <img
-                      src="assets/img/img_v_3.jpg"
-                      alt="circle image"
-                      class="img-fluid"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="offset-md-0 offset-lg-1 col-sm-12 col-md-5 col-lg-5 col-xl-4"
-                data-aos="fade-up"
-              >
-                <div class="px-3">
-                  <span class="content-subtitle">Our Mission</span>
-                  <h2 class="content-title text-start">
-                    The Big Oxmox advised her not to do so, because there were
-                    thousands.
-                  </h2>
-                  <p class="lead">
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia. It is a paradisematic
-                    country.
-                  </p>
-                  <p class="mb-5">
-                    The Big Oxmox advised her not to do so, because there were
-                    thousands of bad Commas, wild Question Marks and devious
-                    Semikoli.
-                  </p>
-                  <p>
-                    <a href="#" class="btn-get-started">Get Started</a>
-                  </p>
-                </div>
-              </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-up">
+              <h2 class="mb-4">Our Story</h2>
+              <p>
+                Chibsah Foundation was established in 2009 as a nonprofit subsidiary of YAC Group, born from a deep conviction that access to essential resources is a fundamental human right, not a privilege. Our journey began with a simple yet powerful vision: to create sustainable change in underserved communities across Ghana.
+              </p>
+              <p>
+                What started as modest community outreach initiatives has grown into a comprehensive organization impacting thousands of lives through healthcare programs, clean water projects, and educational support.
+              </p>
+              <p>
+                Today, we stand as a beacon of hope for countless families, working tirelessly to bridge the gap between need and opportunity. Our foundation operates on the principle that empowered communities create their own sustainable futures.
+              </p>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/9.jpg" alt="Chibsah Foundation Community Work" class="img-fluid rounded">
+            </div>
+          </div>
+          
+          <!-- Mission and Vision Cards -->
+          <div class="mission-vision-cards" data-aos="fade-up">
+            <div class="mission-card">
+              <h3><i class="bi bi-bullseye me-2"></i>Our Mission</h3>
+              <p>
+                To empower underserved communities in Ghana by providing essential healthcare, clean water, and educational resources, ensuring a brighter and healthier future for all. We strive to break the cycle of poverty through sustainable interventions that address root causes rather than symptoms.
+              </p>
+            </div>
+            <div class="vision-card">
+              <h3><i class="bi bi-eye me-2"></i>Our Vision</h3>
+              <p>
+                A world where every individual, regardless of their background, has access to fundamental resources and opportunities for growth and development. We envision communities that are self-sufficient, educated, healthy, and equipped to create generational change.
+              </p>
             </div>
           </div>
         </div>
       </section>
-      <!-- /About 2 Section -->
 
-      <!-- Services Section -->
-      <section id="services" class="services section light-background">
+      <!-- Our Values Section -->
+      <section id="values" class="services section light-background">
         <div class="container">
+          <div class="section-title text-center" data-aos="fade-up">
+            <h2>Our Core Values</h2>
+            <p>The principles that guide every action we take</p>
+          </div>
+          
           <div class="row gy-4 justify-content-center">
             <div class="col-lg-3">
               <div class="services-item" data-aos="fade-up">
                 <div class="services-icon">
-                  <i class="bi bi-bullseye"></i>
+                  <i class="bi bi-heart-fill"></i>
                 </div>
                 <div>
-                  <h3>Technology</h3>
-                  <p>
-                    Separated they live in Bookmarksgrove right at the coast
-                  </p>
+                  <h3>Compassion</h3>
+                  <p>We believe in serving with empathy and understanding, treating every individual with dignity and respect.</p>
                 </div>
               </div>
             </div>
@@ -293,12 +393,12 @@
                 data-aos-delay="100"
               >
                 <div class="services-icon">
-                  <i class="bi bi-command"></i>
+                  <i class="bi bi-arrow-repeat"></i>
                 </div>
                 <div>
-                  <h3>Web Design</h3>
+                  <h3>Sustainability</h3>
                   <p>
-                    Separated they live in Bookmarksgrove right at the coast
+                    Our initiatives focus on long-term impact and self-sufficiency, creating solutions that last for generations.
                   </p>
                 </div>
               </div>
@@ -311,12 +411,30 @@
                 data-aos-delay="200"
               >
                 <div class="services-icon">
-                  <i class="bi bi-bar-chart"></i>
+                  <i class="bi bi-shield-check"></i>
                 </div>
                 <div>
-                  <h3>Branding</h3>
+                  <h3>Integrity</h3>
                   <p>
-                    Separated they live in Bookmarksgrove right at the coast
+                    We uphold transparency and accountability in all our actions, ensuring donor funds are used effectively and ethically.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3">
+              <div
+                class="services-item"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div class="services-icon">
+                  <i class="bi bi-people-fill"></i>
+                </div>
+                <div>
+                  <h3>Community</h3>
+                  <p>
+                    We work with communities, not for them, ensuring local ownership and participation in all our projects.
                   </p>
                 </div>
               </div>
@@ -324,17 +442,129 @@
           </div>
         </div>
       </section>
-      <!-- /Services Section -->
 
-      <!-- Stats Section -->
-      <section id="stats" class="stats section light-background">
+      <!-- Founder Profile Section -->
+      <section id="founder" class="founder-section section">
         <div class="container">
-          <div class="row gy-4 justify-content-center">
+          <div class="section-title text-center mb-5" data-aos="fade-up">
+            <h2>Our Founder</h2>
+            <p>The Visionary Behind Chibsah Foundation</p>
+          </div>
+          
+          <div class="row align-items-center">
+            <div class="col-lg-5" data-aos="fade-up">
+              <div class="text-center">
+                <img src="assets/img/yussif.png" alt="Yussif Alhassan Chibsah" class="img-fluid founder-image">
+                <h3 class="mt-3">Yussif Alhassan Chibsah</h3>
+                <p class="text-muted">Founder & Chairman</p>
+              </div>
+            </div>
+            
+            <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="mb-4">From Football Legend to Humanitarian Leader</h3>
+              <p>
+                From the classrooms of Prempeh College to the stadium lights of Europe, Yussif Alhassan Chibsah's journey is one of discipline, resilience, and vision. Born in Accra in 1983, Yussif discovered early on that football was more than a game. It was a platform for leadership and service. His determination carried him from Ghana's local pitches to the international stage, where he became a respected midfielder for the Black Stars and captain of Asante Kotoko.
+              </p>
+              
+              <div class="founder-quote">
+                "Football gave me discipline, but education gave me purpose. I want to give both to the next generation."
+                <div class="mt-2 fw-bold">— Yussif Alhassan Chibsah</div>
+              </div>
+              
+              <h4 class="mt-4">A Career Across Continents</h4>
+              <p>
+                Yussif's talent opened doors far beyond Ghana. After excelling at home, he moved to Europe, where he played in Sweden's Allsvenskan league for clubs such as Gefle IF and Djurgårdens IF, making over 100 appearances. He also featured for GAIS and Ljungskile SK and had a spell in Türkiye with Alanyaspor. Each chapter of his career sharpened his skills, broadened his worldview, and deepened his belief that success must be paired with responsibility.
+              </p>
+              
+              <h4 class="mt-4">Education as Empowerment</h4>
+              <p>
+                Even at the height of his football career, Yussif never lost sight of education. After retiring from professional play, he pursued higher learning, earning a Master's degree in International Sports Law from ISDE Law Business School in Spain. For him, football taught discipline, but education unlocked purpose. This conviction fuels his mission to ensure that young people, especially those from disadvantaged backgrounds, have access to quality learning, mentorship, and opportunities to dream beyond their circumstances.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Founder's Milestones -->
+          <div class="row mt-5">
+            <div class="col-12" data-aos="fade-up">
+              <h3 class="text-center mb-5">Key Milestones</h3>
+              <div class="milestone-timeline">
+                <div class="milestone-item">
+                  <div class="milestone-year">1983</div>
+                  <div class="milestone-content">
+                    <h5>Born in Accra, Ghana</h5>
+                    <p>Yussif Alhassan Chibsah was born in Accra, where his passion for football and education began.</p>
+                  </div>
+                </div>
+                
+                <div class="milestone-item">
+                  <div class="milestone-year">Early 2000s</div>
+                  <div class="milestone-content">
+                    <h5>Professional Football Career</h5>
+                    <p>Rose to prominence as a midfielder for the Black Stars and captain of Asante Kotoko, later playing in Europe for clubs in Sweden and Turkey.</p>
+                  </div>
+                </div>
+                
+                <div class="milestone-item">
+                  <div class="milestone-year">2009</div>
+                  <div class="milestone-content">
+                    <h5>Founded Chibsah Foundation</h5>
+                    <p>Established the foundation to address critical needs in healthcare, clean water, and education in Ghana.</p>
+                  </div>
+                </div>
+                
+                <div class="milestone-item">
+                  <div class="milestone-year">Post-Retirement</div>
+                  <div class="milestone-content">
+                    <h5>Advanced Education & Sports Management</h5>
+                    <p>Earned a Master's degree in International Sports Law and founded Club Consult Africa Ltd to nurture young football talents across Africa.</p>
+                  </div>
+                </div>
+                
+                <div class="milestone-item">
+                  <div class="milestone-year">Present</div>
+                  <div class="milestone-content">
+                    <h5>Humanitarian Leadership</h5>
+                    <p>Leads Chibsah Foundation in creating sustainable impact across Ghana, guided by the UN Sustainable Development Goals.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Club Consult Africa Section with embedded link -->
+          <div class="row mt-5 pt-5" data-aos="fade-up">
+            <div class="col-12">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+                  <h4 class="card-title">
+                    <i class="bi bi-person-badge me-2"></i>
+                    <a href="https://www.clubconsultafrica.org" target="_blank" class="club-consult-link">Club Consult Africa Ltd</a>
+                    <i class="bi bi-box-arrow-up-right ms-2" style="font-size: 0.8rem;"></i>
+                  </h4>
+                  <p class="card-text">
+                    Yussif is also the founder of <a href="https://www.clubconsultafrica.org" target="_blank" class="club-consult-link">Club Consult Africa Ltd</a>, a sports management and consultancy firm dedicated to nurturing and guiding football talents across Africa. Through this platform, he provides professional representation, career development, and mentorship to young athletes, ensuring they are equipped not only for success on the pitch but also for life beyond football. His work with Club Consult Africa reflects his belief that talent must be matched with guidance, education, and opportunity to create lasting impact.
+                  </p>
+                  <p class="mt-3">
+                    <a href="https://www.clubconsultafrica.org" target="_blank" class="btn btn-outline-success">
+                      Visit Club Consult Africa Website <i class="bi bi-box-arrow-up-right ms-1"></i>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Impact Section -->
+      <section id="impact" class="stats section light-background">
+        <div class="container">
+          <div class="row gy-4 justify-content-center align-items-center">
             <div class="col-lg-5">
               <div class="images-overlap">
                 <img
-                  src="assets/img/img_v_1.jpg"
-                  alt="student"
+                  src="assets/img/14.jpg"
+                  alt="Our Impact"
                   class="img-fluid img-1"
                   data-aos="fade-up"
                 />
@@ -342,21 +572,14 @@
             </div>
 
             <div class="col-lg-4 ps-lg-5">
-              <span class="content-subtitle">Why Us</span>
-              <h2 class="content-title">
-                Far far away Behind the Word Mountains
-              </h2>
+              <h2>Our Impact</h2>
               <p class="lead">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia.
+                Through our health initiatives, water and sanitation projects, and educational programs, we empower individuals and communities to break the cycle of poverty and build a brighter future. Our work is driven by a deep commitment to sustainability, inclusivity, and positive social impact.
               </p>
-              <p class="mb-5">
-                There live the blind texts. Separated they live in
-                Bookmarksgrove right at the coast of the Semantics, a large
-                language ocean.
+              <p class="lead">
+                With the support of our partners, donors, and volunteers, Chibsah Foundation continues to expand its reach—ensuring that every person, regardless of their circumstances, has the opportunity to lead a healthier, safer, and more educated life.
               </p>
               <div class="row mb-5 count-numbers">
-                <!-- Start Stats Item -->
                 <div
                   class="col-4 counter"
                   data-aos="fade-up"
@@ -369,11 +592,8 @@
                     data-purecounter-duration="1"
                     class="purecounter number"
                   ></span>
-                  <span class="d-block">Coffee</span>
+                  <span class="d-block">Projects</span>
                 </div>
-                <!-- End Stats Item -->
-
-                <!-- Start Stats Item -->
                 <div
                   class="col-4 counter"
                   data-aos="fade-up"
@@ -386,11 +606,8 @@
                     data-purecounter-duration="1"
                     class="purecounter number"
                   ></span>
-                  <span class="d-block">Codes</span>
+                  <span class="d-block">Impact</span>
                 </div>
-                <!-- End Stats Item -->
-
-                <!-- Start Stats Item -->
                 <div
                   class="col-4 counter"
                   data-aos="fade-up"
@@ -403,347 +620,129 @@
                     data-purecounter-duration="1"
                     class="purecounter number"
                   ></span>
-                  <span class="d-block">Projects</span>
+                  <span class="d-block">Beneficiaries</span>
                 </div>
-                <!-- End Stats Item -->
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- /Stats Section -->
 
-      <!-- Team Section -->
-      <section id="team" class="team section">
-        <div class="site-section slider-team-wrap">
-          <div class="container">
-            <div class="slider-nav d-flex justify-content-end mb-3">
-              <a href="#" class="js-prev js-custom-prev"
-                ><i class="bi bi-arrow-left-short"></i
-              ></a>
-              <a href="#" class="js-next js-custom-next"
-                ><i class="bi bi-arrow-right-short"></i
-              ></a>
+      <!-- SDG Section -->
+      <section id="sdg" class="sdg-section section">
+        <div class="container">
+          <h2>Our Commitment to the Sustainable Development Goals (SDGs)</h2>
+          <p class="sdg-description">
+            Chibsah Foundation is proudly aligned with the UN Sustainable Development Goals. We work daily to advance the following SDGs through our health, education, and water initiatives.
+          </p>
+
+          <div class="sdg-goals">
+            <div class="sdg-goal">
+              <img
+                src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-01.jpg"
+                alt="SDG 1"
+              />
+              <p>No Poverty</p>
             </div>
-
-            <div
-              class="swiper init-swiper"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "1",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  },
-                  "navigation": {
-                    "nextEl": ".js-custom-next",
-                    "prevEl": ".js-custom-prev"
-                  },
-                  "breakpoints": {
-                    "640": {
-                      "slidesPerView": 2,
-                      "spaceBetween": 30
-                    },
-                    "768": {
-                      "slidesPerView": 3,
-                      "spaceBetween": 30
-                    },
-                    "1200": {
-                      "slidesPerView": 3,
-                      "spaceBetween": 30
-                    }
-                  }
-                }
-              </script>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="team">
-                    <div class="pic">
-                      <img
-                        src="assets/img/team/team-1.jpg"
-                        alt="Image"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <h3 clas="">
-                      <a href="#"><span class="">Jeremy</span> Walker</a>
-                    </h3>
-                    <span class="d-block position">CEO, Founder, Atty.</span>
-                    <p>
-                      Separated they live in. Separated they live in
-                      Bookmarksgrove right at the coast of the Semantics, a
-                      large language ocean.
-                    </p>
-                    <p class="mb-0">
-                      <a href="#" class="more dark"
-                        >Learn More <span class="bi bi-arrow-right-short"></span
-                      ></a>
-                    </p>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="team">
-                    <div class="pic">
-                      <img
-                        src="assets/img/team/team-2.jpg"
-                        alt="Image"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <h3 clas="">
-                      <a href="#"><span class="">Lawson</span> Arnold</a>
-                    </h3>
-                    <span class="d-block position">CEO, Founder, Atty.</span>
-                    <p>
-                      Separated they live in. Separated they live in
-                      Bookmarksgrove right at the coast of the Semantics, a
-                      large language ocean.
-                    </p>
-                    <p class="mb-0">
-                      <a href="#" class="more dark"
-                        >Learn More <span class="bi bi-arrow-right-short"></span
-                      ></a>
-                    </p>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="team">
-                    <div class="pic">
-                      <img
-                        src="assets/img/team/team-3.jpg"
-                        alt="Image"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <h3 clas="">
-                      <a href="#"><span class="">Patrik</span> White</a>
-                    </h3>
-                    <span class="d-block position">CEO, Founder, Atty.</span>
-                    <p>
-                      Separated they live in. Separated they live in
-                      Bookmarksgrove right at the coast of the Semantics, a
-                      large language ocean.
-                    </p>
-                    <p class="mb-0">
-                      <a href="#" class="more dark"
-                        >Learn More <span class="bi bi-arrow-right-short"></span
-                      ></a>
-                    </p>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="team">
-                    <div class="pic">
-                      <img
-                        src="assets/img/team/team-4.jpg"
-                        alt="Image"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <h3 clas="">
-                      <a href="#"><span class="">Kathryn</span> Ryan</a>
-                    </h3>
-                    <span class="d-block position">CEO, Founder, Atty.</span>
-                    <p>
-                      Separated they live in. Separated they live in
-                      Bookmarksgrove right at the coast of the Semantics, a
-                      large language ocean.
-                    </p>
-                    <p class="mb-0">
-                      <a href="#" class="more dark"
-                        >Learn More <span class="bi bi-arrow-right-short"></span
-                      ></a>
-                    </p>
-                  </div>
-                </div>
-                <!-- <div class="swiper-slide"></div> -->
-              </div>
+            <div class="sdg-goal">
+              <img
+                src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-02.jpg"
+                alt="SDG 2"
+              />
+              <p>Zero Hunger</p>
+            </div>
+            <div class="sdg-goal">
+              <img
+                src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-03.jpg"
+                alt="SDG 3"
+              />
+              <p>Good Health & Well-being</p>
+            </div>
+            <div class="sdg-goal">
+              <img
+                src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-04.jpg"
+                alt="SDG 4"
+              />
+              <p>Quality Education</p>
+            </div>
+            <div class="sdg-goal">
+              <img
+                src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-05.jpg"
+                alt="SDG 5"
+              />
+              <p>Gender Equality</p>
+            </div>
+            <div class="sdg-goal">
+              <img
+                src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-06.jpg"
+                alt="SDG 6"
+              />
+              <p>Clean Water & Sanitation</p>
+            </div>
+            <div class="sdg-goal">
+              <img
+                src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-08.jpg"
+                alt="SDG 8"
+              />
+              <p>Decent Work & Economic Growth</p>
+            </div>
+            <div class="sdg-goal">
+              <img
+                src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-13.jpg"
+                alt="SDG 13"
+              />
+              <p>Climate Action</p>
+            </div>
+            <div class="sdg-goal">
+              <img
+                src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-16.jpg"
+                alt="SDG 16"
+              />
+              <p>Peace, Justice & Institutions</p>
+            </div>
+            <div class="sdg-goal">
+              <img
+                src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-17.jpg"
+                alt="SDG 17"
+              />
+              <p>Partnership for the Goals</p>
             </div>
           </div>
-          <!-- /.container -->
         </div>
       </section>
-      <!-- /Team Section -->
 
-      <!-- Testimonials Section -->
-      <section id="testimonials" class="testimonials section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <p>Happy Customers</p>
-          <h2>Testimonials</h2>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up">
+      <!-- Team CTA Section -->
+      <section id="team-cta" class="section light-background">
+        <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-7">
-              <div class="swiper init-swiper">
-                <script type="application/json" class="swiper-config">
-                  {
-                    "loop": true,
-                    "speed": 600,
-                    "autoplay": {
-                      "delay": 5000
-                    },
-                    "slidesPerView": "auto",
-                    "pagination": {
-                      "el": ".swiper-pagination",
-                      "type": "bullets",
-                      "clickable": true
-                    },
-                    "breakpoints": {
-                      "320": {
-                        "slidesPerView": 1,
-                        "spaceBetween": 40
-                      },
-                      "1200": {
-                        "slidesPerView": 1,
-                        "spaceBetween": 1
-                      }
-                    }
-                  }
-                </script>
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="testimonial mx-auto">
-                      <figure class="img-wrap">
-                        <img
-                          src="assets/img/testimonials/testimonials-1.jpg"
-                          alt="Image"
-                          class="img-fluid"
-                        />
-                      </figure>
-                      <h3 class="name">Adam Aderson</h3>
-                      <blockquote>
-                        <p>
-                          “There live the blind texts. Separated they live in
-                          Bookmarksgrove right at the coast of the Semantics, a
-                          large language ocean.”
-                        </p>
-                      </blockquote>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="testimonial mx-auto">
-                      <figure class="img-wrap">
-                        <img
-                          src="assets/img/testimonials/testimonials-2.jpg"
-                          alt="Image"
-                          class="img-fluid"
-                        />
-                      </figure>
-                      <h3 class="name">Lukas Devlin</h3>
-                      <blockquote>
-                        <p>
-                          “There live the blind texts. Separated they live in
-                          Bookmarksgrove right at the coast of the Semantics, a
-                          large language ocean.”
-                        </p>
-                      </blockquote>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="testimonial mx-auto">
-                      <figure class="img-wrap">
-                        <img
-                          src="assets/img/testimonials/testimonials-3.jpg"
-                          alt="Image"
-                          class="img-fluid"
-                        />
-                      </figure>
-                      <h3 class="name">Kayla Bryant</h3>
-                      <blockquote>
-                        <p>
-                          “There live the blind texts. Separated they live in
-                          Bookmarksgrove right at the coast of the Semantics, a
-                          large language ocean.”
-                        </p>
-                      </blockquote>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
+            <div class="col-lg-8 text-center" data-aos="fade-up">
+              <h2 class="mb-4">Join Our Team</h2>
+              <p class="lead mb-4">
+                Our work is made possible by a dedicated team of staff, volunteers, and partners who share our vision for a better Ghana. If you're passionate about making a difference, we'd love to hear from you.
+              </p>
+              <a href="contact.html" class="btn-get-started">Get Involved</a>
             </div>
           </div>
         </div>
       </section>
-      <!-- /Testimonials Section -->
     </main>
 
     <footer id="footer" class="footer light-background">
       <div class="container">
         <div class="row g-4">
-          <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
-            <div class="widget">
-              <h3 class="widget-heading">About Us</h3>
-              <p class="mb-4">
-                There live the blind texts. Separated they live in
-                Bookmarksgrove right at the coast of the Semantics, a large
-                language ocean.
-              </p>
-              <p class="mb-0">
-                <a href="#" class="btn-learn-more">Learn more</a>
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 ps-lg-5 mb-3 mb-md-0">
-            <div class="widget">
-              <h3 class="widget-heading">Navigation</h3>
-              <ul class="list-unstyled float-start me-5">
-                <li><a href="#">Overview</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Find Buyers</a></li>
-              </ul>
-              <ul class="list-unstyled float-start">
-                <li><a href="#">Overview</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 pl-lg-5">
-            <div class="widget">
-              <h3 class="widget-heading">Recent Posts</h3>
-              <ul class="list-unstyled footer-blog-entry">
-                <li>
-                  <span class="d-block date">May 3, 2020</span>
-                  <a href="#">There live the Blind Texts</a>
-                </li>
-                <li>
-                  <span class="d-block date">May 3, 2020</span>
-                  <a href="#">Separated they live in Bookmarksgrove right</a>
-                </li>
-              </ul>
-            </div>
-          </div>
           <div class="col-md-6 col-lg-3 pl-lg-5">
             <div class="widget">
               <h3 class="widget-heading">Connect</h3>
               <ul class="list-unstyled social-icons light mb-3">
                 <li>
-                  <a href="#"><span class="bi bi-facebook"></span></a>
+                  <a href="https://www.facebook.com/ChibsahFoundation/"
+                    ><span class="bi bi-facebook"></span
+                  ></a>
                 </li>
                 <li>
-                  <a href="#"><span class="bi bi-twitter-x"></span></a>
-                </li>
-                <li>
-                  <a href="#"><span class="bi bi-linkedin"></span></a>
-                </li>
-                <li>
-                  <a href="#"><span class="bi bi-google"></span></a>
-                </li>
-                <li>
-                  <a href="#"><span class="bi bi-google-play"></span></a>
+                  <a href="https://www.instagram.com/chibsahfoundation/"
+                    ><span class="bi bi-instagram"></span
+                  ></a>
                 </li>
               </ul>
             </div>
@@ -763,7 +762,6 @@
                       name="email"
                       placeholder="Enter your email"
                     />
-
                     <button type="submit" class="btn btn-link">
                       <span class="bi bi-arrow-right"></span>
                     </button>
@@ -783,17 +781,11 @@
           class="copyright d-flex flex-column flex-md-row align-items-center justify-content-md-between"
         >
           <p>
-            © <span>Copyright</span>
-            <strong class="px-1 sitename">Active.</strong>
+            © <span>Copyright 2025</span>
+            <strong class="px-1 sitename">Chibsah Foundation</strong>
             <span>All Rights Reserved</span>
           </p>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you've purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
+          <!-- <div class="credits">Designed by <a href="">Innova Tech Hub</a></div> -->
         </div>
       </div>
     </footer>
@@ -821,5 +813,23 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+    
+    <!-- Additional JS for About Page -->
+    <script>
+      // Initialize AOS animations
+      document.addEventListener('DOMContentLoaded', function() {
+        AOS.init({
+          duration: 800,
+          easing: 'ease-in-out',
+          once: true,
+          mirror: false
+        });
+        
+        // Initialize PureCounter
+        if (typeof PureCounter !== 'undefined') {
+          new PureCounter();
+        }
+      });
+    </script>
   </body>
 </html>
